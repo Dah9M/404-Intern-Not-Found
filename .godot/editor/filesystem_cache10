@@ -1,9 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1745661386
-default_env.tres::Environment::4054723006481669613::1745661361::0::1::::<><><>0<>0<><>::
+::res://::1745663186
+default_env.tres::Environment::4054723006481669613::1745663059::0::1::::<><><>0<>0<><>::
 icon.png::CompressedTexture2D/CompressedTexture2D::3273256388205721629::1745655585::1745661255::1::::<><><>0<>0<>d2d4f0115e277777ea54188724252096<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
 Julia.png::CompressedTexture2D/CompressedTexture2D::4027395201775392838::1745661251::1745661255::1::::<><><>0<>0<>f4fa237d0d2cc6a5080d5452803fc30f<>res://.godot/imported/Julia.png-b8e943f250d192a774acb23b28f4eb08.ctex::
-Main.tscn::PackedScene::1899096436303253401::1745661361::0::1::::<><><>0<>0<><>::
-main.tscn::PackedScene::5083714348647797953::1745661255::0::1::::<><><>0<>0<><>::uid://i315tqs6v3ic::::res://player.gd<>uid://bxm5u02t5w7eo::::res://Julia.png
+main.tscn::PackedScene::5083714348647797953::1745663059::0::1::::<><><>0<>0<><>::res://player.gd<>uid://bxm5u02t5w7eo::::res://Julia.png
 player.gd::GDScript/GDScript::-1::1745661251::0::1::::<>CharacterBody2D<><>0<>0<><>::
 README.md::TextFile/TextFile::-1::1745656219::0::1::::<><><>0<>0<><>::
+walk_down.PNG::CompressedTexture2D::6854235348665859735::1745662828::1745663154::1::::<><><>0<>0<>9f04fdd8df7e9f914f7470eeb5885ba3<>res://.godot/imported/walk_down.PNG-fdb61c8aef55087a8eb277eeef46b946.ctex::
+walk_right.PNG::CompressedTexture2D::293262398005059589::1745662828::1745663154::1::::<><><>0<>0<>890aa7cd4f6032c5da2f39413840152b<>res://.godot/imported/walk_right.PNG-ad4b919a2ea7bfb99fc5d443e7fecd02.ctex::
+walk_up.PNG::CompressedTexture2D::7379382852645043989::1745663168::1745663190::1::::<><><>0<>0<>b6eb07ac4076430c9ea95adfe6df03e5<>res://.godot/imported/walk_up.PNG-1e20ee8766e3abaf779c8b9e47dd763c.ctex::
