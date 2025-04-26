@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=3 uid="uid://c8lgxtgws17dg"]
+
+[ext_resource type="Script" uid="uid://mbx2204nknre" path="res://menu.gd" id="1_lti8b"]
+[ext_resource type="Texture2D" uid="uid://dkrnbtb8i8uw3" path="res://play.png" id="2_mae5d"]
+[ext_resource type="Texture2D" uid="uid://bwarvtcubbc1m" path="res://exit.png" id="3_4hy44"]
+[ext_resource type="Texture2D" uid="uid://dkbgqgm6ti5ih" path="res://Menu.png" id="4_4hy44"]
+
+[node name="Menu" type="Node2D"]
+script = ExtResource("1_lti8b")
+
+[node name="Play" type="Button" parent="."]
+offset_left = 338.0
+offset_top = 26.0
+offset_right = 858.0
+offset_bottom = 342.0
+theme_override_colors/font_color = Color(0.227451, 0.921569, 0, 1)
+theme_override_font_sizes/font_size = 60
+icon = ExtResource("2_mae5d")
+
+[node name="Quit" type="Button" parent="."]
+offset_left = 371.0
+offset_top = 361.0
+offset_right = 819.0
+offset_bottom = 633.0
+theme_override_colors/font_color = Color(0.807843, 0, 0, 1)
+theme_override_font_sizes/font_size = 60
+icon = ExtResource("3_4hy44")
+
+[node name="Menu" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(574, 322)
+scale = Vector2(1.11328, 1.11111)
+texture = ExtResource("4_4hy44")
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
