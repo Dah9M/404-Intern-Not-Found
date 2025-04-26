@@ -1,33 +1,27 @@
-[gd_scene load_steps=15 format=4 uid="uid://ceoubdwu4eyov"]
+[gd_scene load_steps=18 format=4 uid="uid://ceoubdwu4eyov"]
 
 [ext_resource type="Script" uid="uid://i315tqs6v3ic" path="res://player.gd" id="1_ig7tw"]
-[ext_resource type="Texture2D" uid="uid://bxm5u02t5w7eo" path="res://Julia.png" id="2_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://c6akjb7sp8p3w" path="res://animation/walk_down.png" id="2_efxa6"]
+[ext_resource type="Texture2D" uid="uid://g5kv0fkviv2l" path="res://animation/walk_down_1.png" id="3_dg77c"]
 [ext_resource type="Texture2D" uid="uid://xs3il55futtq" path="res://Room_Builder_free_16x16.png" id="3_h2yge"]
 [ext_resource type="Texture2D" uid="uid://baiq80sq3w8vs" path="res://Interiors_free_16x16.png" id="4_1bvp3"]
+[ext_resource type="Texture2D" uid="uid://bj3j0ejpom3oh" path="res://animation/walk_run_2_l.png" id="4_ycdy4"]
+[ext_resource type="Texture2D" uid="uid://cx7j0u5vp3i3m" path="res://animation/walk_run_1_l.png" id="5_w48qg"]
+[ext_resource type="Texture2D" uid="uid://b4wbpdxrnfm2k" path="res://animation/walk_run_2.png" id="6_vivmo"]
+[ext_resource type="Texture2D" uid="uid://2hvvst724flv" path="res://animation/walk_run_1.png" id="7_2cqfq"]
+[ext_resource type="Texture2D" uid="uid://c7rsevyue4pko" path="res://animation/walk_up.png" id="8_yaehf"]
+[ext_resource type="Texture2D" uid="uid://cmv81xe3r8pdj" path="res://animation/walk_up_1.png" id="9_074og"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0xm2m"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_0xm2m"]
-atlas = ExtResource("2_0xm2m")
-region = Rect2(0, 0, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_h2yge"]
-atlas = ExtResource("2_0xm2m")
-region = Rect2(96, 0, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_1bvp3"]
-atlas = ExtResource("2_0xm2m")
-region = Rect2(32, 0, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_lquwl"]
-atlas = ExtResource("2_0xm2m")
-region = Rect2(64, 0, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_efxa6"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_0xm2m")
+"texture": ExtResource("2_efxa6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_dg77c")
 }],
 "loop": true,
 "name": &"walk_down",
@@ -35,7 +29,10 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_h2yge")
+"texture": ExtResource("4_ycdy4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_w48qg")
 }],
 "loop": true,
 "name": &"walk_left",
@@ -43,7 +40,10 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_1bvp3")
+"texture": ExtResource("6_vivmo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_2cqfq")
 }],
 "loop": true,
 "name": &"walk_right",
@@ -51,7 +51,10 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_lquwl")
+"texture": ExtResource("8_yaehf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_074og")
 }],
 "loop": true,
 "name": &"walk_up",
@@ -1443,8 +1446,9 @@ shape = SubResource("RectangleShape2D_0xm2m")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Node2D/Player"]
 position = Vector2(1, -1)
+scale = Vector2(0.05, 0.05)
 sprite_frames = SubResource("SpriteFrames_efxa6")
-animation = &"walk_down"
+animation = &"walk_up"
 
 [node name="Camera2D" type="Camera2D" parent="Node2D"]
 
