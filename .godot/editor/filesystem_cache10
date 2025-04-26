@@ -1,8 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1745660509
-default_env.tres::Environment::4054723006481669613::1745660215::0::1::::<><><>0<>0<><>::
-icon.png::CompressedTexture2D::3273256388205721629::1745657087::1745660033::1::::<><><>0<>0<>d2d4f0115e277777ea54188724252096<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
-Julia.png::CompressedTexture2D::4027395201775392838::1745660509::1745660509::1::::<><><>0<>0<>f4fa237d0d2cc6a5080d5452803fc30f<>res://.godot/imported/Julia.png-b8e943f250d192a774acb23b28f4eb08.ctex::
-README.md::TextFile::-1::1745654786::0::1::::<><><>0<>0<><>::
-main.tscn::PackedScene::5083714348647797953::1745660215::0::1::::<><><>0<>0<><>::uid://i315tqs6v3ic::::res://player.gd
-player.gd::GDScript::620946565367653210::1745660215::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://::1745667314
+default_env.tres::Environment::4054723006481669613::1745667296::0::1::::<><><>0<>0<><>::
+Group 28.png::CompressedTexture2D/CompressedTexture2D::1559755613633078539::1745662762::1745662762::1::::<><><>0<>0<>f3b8cb2e1463b2edbb6a3e692d652faa<>res://.godot/imported/Group 28.png-7c80d6dcee383bdf7cac864cfc2635f0.ctex::
+icon.png::CompressedTexture2D/CompressedTexture2D::3273256388205721629::1745657087::1745660033::1::::<><><>0<>0<>d2d4f0115e277777ea54188724252096<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
+Interiors_free_16x16.png::CompressedTexture2D/CompressedTexture2D::2403967450464225104::1745664481::1745664481::1::::<><><>0<>0<>5845c05f926bed89a5fe3405e817e534<>res://.godot/imported/Interiors_free_16x16.png-583292e42d0b43b1917764625744734b.ctex::
+Julia.png::CompressedTexture2D/CompressedTexture2D::4027395201775392838::1745660509::1745660509::1::::<><><>0<>0<>f4fa237d0d2cc6a5080d5452803fc30f<>res://.godot/imported/Julia.png-b8e943f250d192a774acb23b28f4eb08.ctex::
+main.tscn::PackedScene::5083714348647797953::1745667296::0::1::::<><><>0<>0<><>::uid://i315tqs6v3ic::::res://player.gd<>uid://bxm5u02t5w7eo::::res://Julia.png
+player.gd::GDScript::620946565367653210::1745660806::0::1::::<>CharacterBody2D<><>0<>0<><>::
+README.md::TextFile/TextFile::-1::1745654786::0::1::::<><><>0<>0<><>::
+Room_Builder_free_16x16.png::CompressedTexture2D/CompressedTexture2D::1653217190868058130::1745666707::1745666678::1::::<><><>0<>0<>e6a4ff2aae4e89eb6f66acc5430f0b75<>res://.godot/imported/Room_Builder_free_16x16.png-98c778eebbeef62e5c85099a2164976c.ctex::
